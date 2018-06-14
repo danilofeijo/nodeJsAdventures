@@ -1,0 +1,19 @@
+{
+  "name": "nodejsadventures",
+  "version": "1.0.0",
+  "description": "Nodejs project to go to beyond the Hello world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilofeijo/nodeJsAdventures.git"
+  },
+  "author": "Danilo Feijo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilofeijo/nodeJsAdventures/issues"
+  },
+  "homepage": "https://github.com/danilofeijo/nodeJsAdventures#readme"
+}
