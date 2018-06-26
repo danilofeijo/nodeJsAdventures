@@ -1,12 +1,12 @@
-let cachorro = 'Legal';
-console.log(cachorro);
-console.log(typeof cachorro);
+let dog = 'Legal';
+console.log(dog);
+console.log(typeof dog);
 
-cachorro = 2.345
-console.log(cachorro);
-console.log(typeof cachorro);
+dog = 2.345
+console.log(dog);
+console.log(typeof dog);
 
-// Evite nome generico e siglas para variaveis
-let valor = 'a';
-let numero = 1;
-let pqp = false // Produto Quimico Perigoso... kk
+// Avoid generic names and acronyms to name variables
+let value = 'a';
+let number = 1;
+let fom = false // Formula One Management

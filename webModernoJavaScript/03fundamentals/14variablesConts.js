@@ -1,17 +1,17 @@
-var laranja = 3;
+var orange = 3;
 let banana = 4;
 
-var laranja = 30;
+var orange = 30;
 banana = 40;
 
-console.log(laranja, banana);
+console.log(orange, banana);
 
 laranja = 300;
-banana = 400;
+orange = 400;
 
-console.log(laranja, banana);
+console.log(orange, banana);
 
-const abacaxi = 2;
-// abacaxi = 20;
+const apple = 2;
+// apple = 20;
 
-console.log(abacaxi);
+console.log(apple);

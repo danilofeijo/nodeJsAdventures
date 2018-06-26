@@ -15,4 +15,4 @@ console.log(`1 + 1 = ${1 + 1}`);
 
 // Using functions
 const up = texto => texto.toUpperCase();
-console.log(`Hey... ${up('cuidado!')}`)
+console.log(`Hey... ${up('Warning!')}`)

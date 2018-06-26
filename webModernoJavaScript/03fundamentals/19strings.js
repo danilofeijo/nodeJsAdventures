@@ -1,27 +1,27 @@
 const esocola = 'Cod3r';
 
-// retorna o caractere da posição informada
+// returns character from given position
 console.log(esocola.charAt(4));
-console.log(esocola.charAt(5)); // posição inexistente nessa variável
+console.log(esocola.charAt(5)); // position doesn't exists
 
-// retorna código do caractere na tabela Unicode
+// returns character code from Unicode table
 console.log(esocola.charCodeAt(3));
 
-// retorna posição do caractere informado
+// returns character position
 console.log(esocola.indexOf('d'));
 
-// retorna o texto a partir da posição informada
+// returns the text from given position
 console.log(esocola.substring(1));
 
-// retorna parte do texto a partir da posição informada
+// returns a piece of text from given position
 console.log(esocola.substring(1,4));
 
-// Concatenação de caracteres
+// characters concatenate
 console.log('Escola '.concat(esocola).concat('!'));
 console.log('Escola ' + esocola + '!');
 
-// Troca caractere
+// characters replacement
 console.log(esocola.replace(3, 'e'));
 
-// Cria um array 
+// creates a new array
 console.log('Danilo,Andre,Felipe,Milton'.split(','));

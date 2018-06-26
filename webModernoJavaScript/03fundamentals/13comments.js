@@ -1,15 +1,15 @@
-// COmnetario de uma linha
-console.log('Linha 1');
+// single comment
+console.log('Row 1');
 
 /*
-Comentario de 
-multiplas linhas
+Multiple line 
+Comment
 */
-console.log('Linha 2');
+console.log('Row 2');
 
 /*
- * Estilo diferente
- * de comentario
- * de multiplas linhas
+ * Kind of 
+ * multiple 
+ * comment line
  */
-console.log('Linha 3');
+console.log('Row 3');

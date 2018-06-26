@@ -1,8 +1,8 @@
-console.log('Senteça de Código');
+console.log('Code sentence');
 
 {
   {
-    console.log('Olá');
-    console.log('Mundo!');
+    console.log('Hello');
+    console.log('World!');
   }
 }
