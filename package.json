@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/danilofeijo/nodeJsAdventures/issues"
   },
-  "homepage": "https://github.com/danilofeijo/nodeJsAdventures#readme"
+  "homepage": "https://github.com/danilofeijo/nodeJsAdventures#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1"
+  }
 }
