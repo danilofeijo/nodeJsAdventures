@@ -1,16 +1,17 @@
 function friendlyError(erro) {
-    throw new Error('Errrrrooooou!!!')
+    // throw new Error('Errrrrooooou!!!')
+    throw 'Deu ruim'
 }
 
 function scream(obj) {
     try {
-        console.log(obj.name.toUpperCase() + '!!!');
-    } catch (messageError) {
-        friendlyError(messageError);
+        console.log(obj.name.toUpperCase() + '!!!')
+    } catch (error) {
+        friendlyError(error)
     } finally {
-        console.log('It is done');
+        console.log('End of function')
     }
 }
 
-const obj = { name: 'Danilo' };
-scream(obj);
+const myText = { nome: 'danilo', surname: 'feijó' }
+scream(myText)
