@@ -5,9 +5,7 @@ function getRandonIntegerBetween(min, max) {
 
 let doorPrize = 0
 
-while (doorPrize != 5) {
-  doorPrize = getRandonIntegerBetween(0, 9)
+while (doorPrize != -1) {
+  doorPrize = getRandonIntegerBetween(-1, 9)
   console.log('Randon number is --> ' + doorPrize)
 }
-
-getRandonIntegerBetween(5,15)
