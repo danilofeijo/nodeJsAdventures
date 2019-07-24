@@ -2,6 +2,7 @@ const allNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 for (let x in allNumbers) {
   if (x == 5) {
+    console.log(`Found the parameter ${x}, its value is ${allNumbers[x]}`);
     break
   }
   console.log(`${x} = ${allNumbers[x]}`);
